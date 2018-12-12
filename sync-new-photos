@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+while true; do
+    rsync -a -P --delete "/Users/rathinam/OneDrive - Reece Group/hackathon/real-data/" "data"
+    sleep 5
+done
